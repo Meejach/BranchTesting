@@ -5,4 +5,6 @@ abstract class Animal {
     public String getName(){
         return name;
     }
+
+    abstract void makeSound();
 }
