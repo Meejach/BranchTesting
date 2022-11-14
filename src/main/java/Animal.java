@@ -7,4 +7,6 @@ abstract class Animal {
     }
 
     abstract void makeSound();
+
+    abstract void showMood(boolean værdi);
 }
