@@ -1,4 +1,4 @@
-abstract class Animal {
+public abstract class Animal {
 
     private String name;
 
@@ -7,4 +7,8 @@ abstract class Animal {
     }
 
     abstract void makeSound();
+
+
+    public abstract boolean eat (String foodType);
+
 }
